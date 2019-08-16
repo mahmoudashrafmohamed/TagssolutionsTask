@@ -1,0 +1,23 @@
+<LinearLayout
+        android:layout_margin="16dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:background="@color/colorWhite"
+        xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <ImageView
+                    android:id="@+id/splashImage"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+
+        <TextView
+                android:id="@+id/title"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:textColor="@color/colorAccent" />
+
+
+    </LinearLayout>
+
